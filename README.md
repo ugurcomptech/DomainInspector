@@ -31,7 +31,7 @@ python app.py example.com -t A NS MX
 2- -t, --type: İsteğe bağlı olarak sorgulanacak bir veya daha fazla kayıt türünü belirtin (varsayılan: A, NS, MX, CNAME, TXT).
 
 ## Çıktı:
-
+```
 +------------------+--------------------+
 | Kayıt Türü     | Sonuç             |
 +------------------+--------------------+
@@ -39,7 +39,7 @@ python app.py example.com -t A NS MX
 | MX              | mail.example.com   |
 | WHOIS           | 2025-01-01         |
 +------------------+--------------------+
-
+```
 
 
 ## Kayıt Türleri
